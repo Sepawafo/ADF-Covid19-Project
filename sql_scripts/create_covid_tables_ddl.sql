@@ -7,7 +7,7 @@ CREATE TABLE covid_reporting.cases_and_deaths
     country_code_2_digit    VARCHAR(2),
     country_code_3_digit    VARCHAR(3),
     population              BIGINT,
-    cases_count             BIGINT,
+    confirmed cases_count   BIGINT,
     deaths_count            BIGINT,
     reported_date           DATE,
     source                  VARCHAR(500)
